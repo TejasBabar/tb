@@ -1,0 +1,177 @@
+body {
+    background-image: url('f.jpg');
+    
+    /*background-image : url('mypic.jgp.jpg');*/
+    margin: 100px;
+    padding: 200px;
+  }
+  
+  
+  h1 {
+    color: rgb(248, 18, 18);
+    text-align: center;
+    top:10px;
+    
+  }
+  h2 {
+      font-size: 40px;
+      text-shadow: 5px 5px 10px;
+      text-align: center;
+      
+      
+  }
+
+
+ul{
+    font-size: 45px;
+    list-style-type: none;
+    background-color:bisque;
+    box-shadow: 4px 4px 5px blue;
+  }
+  /*list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 200px;
+    overflow: hidden;
+    background-color:bisque;
+    box-shadow: 4px 4px 5px;
+  }*/
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(247, 15, 15);
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+  
+  }
+  
+li a:hover {
+     
+    background-color: lightpink;
+    
+  }
+  li{
+    float: left;
+    text-indent: 1cm;
+    list-style-type: none;
+  }
+
+ 
+   /* display: block;
+    padding: 8px;
+    background-color: #dddddd;*/
+ 
+
+
+ /* p{
+     
+    
+    border-style : solid ;
+    border-color: darkgray;
+    background-color:gray;
+    border-width: 10px;
+    }
+  */
+  p {
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px ;
+  }
+  .h2{
+
+        text-shadow: 2px 4px 4px red;
+  }
+  .header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: whitesmoke;
+    color: white;
+    text-align: center;
+    box-shadow: 8px 4px 6px black;
+    
+    
+ }
+ .fa {
+  padding: 0px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  width:3.97rem;
+  height: 4.5rem;
+  position: absolute;
+  top: -4px;
+  right: 210px;
+  font-size: 18px;
+  
+  
+}
+.insta{
+  width:3.97rem;
+  height: 4.5rem;
+  position: absolute;
+  top: -3px;
+  right: 300px;
+  font-size: 18px;
+  
+}
+.twitter{
+  width:3.7rem;
+  height: 4.5rem;
+  position: absolute;
+  top: -3px;
+  right: 130px;
+  font-size: 18px;
+  
+}
+.dropdown {
+  position: relative;
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: aquamarine;
+  min-width: 500px;
+  box-shadow: 10px 12px 19px solid;
+  padding: 15px 19px;
+
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+/*....................................projects......................................................*/
+.dropdown11 {
+  position: relative;
+  display: block;
+}
+
+.dropdown-content11 {
+  display: none;
+  position: absolute;
+  background-color: aquamarine;
+  min-width: 800px;
+  /*box-shadow: 10px 12px 19px;*/ 
+  padding: 15px 19px;
+ 
+
+}
+
+.dropdown11:hover .dropdown-content11{
+  display: block;
+}
+
+

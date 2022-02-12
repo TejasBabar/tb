@@ -1,0 +1,64 @@
+body{
+
+    background-image: url('bi2.jpg');
+}
+.u{
+      text-decoration: underline;
+  
+}
+.skill-header{
+     text-align: center;
+     font-size: 80px;
+     font-style: italic;
+    justify-content: center;
+    text-shadow:2px 3px 4px red;;
+}
+
+.skills-wrapper img {
+    padding: 1.25rem;
+  }
+  .icon {
+    
+    width: 12.875rem;
+    height: 11.25rem;
+    box-shadow: 9px 8px 15px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 7s;
+    animation-delay: 2s;
+    animation-direction: inherit;
+    
+  
+  }
+  @keyframes example {
+    0%   {background-color:yellowgreen; left:0px; }
+    25%  {background-color:yellowgreen; left:300px; }
+    50%  {background-color:yellowgreen; left:300px; }
+    75%  {background-color:yellowgreen; left:0px; }
+    100% {background-color:yellow; left:0px; }
+  }
+
+
+
+.style{
+         font-family: "Arial";
+         font-size: 40px;
+         position: absolute;
+         top: 8px;
+         right: 16px;
+         font-size: 18px;
+         animation-name:stl;
+         animation-duration:1s;
+         width: 12rem;
+         animation-iteration-count: infinite;
+         box-shadow: 10px 11px 20px;
+         
+}
+@keyframes stl {
+    from{background-color:pink;}
+    to  {background-color:pink; }
+    30%  {background-color:pink;}
+    10% {background-color: pink;}
+    20% {background-color:pink;}
+  }
+  
